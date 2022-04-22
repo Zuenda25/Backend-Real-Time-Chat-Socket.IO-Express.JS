@@ -18,6 +18,12 @@ io.on('connection', (socket) => {
     socket.broadcast.to(data.room).emit('user joined chat room');
   });
 
+  socket.on('writing', (data) => {
+    io.in(data.room).emit('is writing', {
+      data,
+    });
+  });
+
   socket.on('message', (data) => {
     io.in(data.room).emit('new message', {
       user: data.user,
