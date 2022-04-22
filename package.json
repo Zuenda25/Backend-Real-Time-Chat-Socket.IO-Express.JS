@@ -1,0 +1,35 @@
+{
+  "name": "socket-io-server",
+  "version": "1.0.0",
+  "description": "Socket.IO server with express.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zuenda25/Socket-IO-Server.git"
+  },
+  "keywords": [
+    "Socket.IO",
+    "live-chat",
+    "real-time-chat"
+  ],
+  "author": "Fhomi Zuenda <zuenda25@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zuenda25/Socket-IO-Server/issues"
+  },
+  "homepage": "https://github.com/Zuenda25/Socket-IO-Server#readme",
+  "dependencies": {
+    "@types/socket.io": "^3.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0"
+  }
+}
